@@ -3,7 +3,7 @@ library(shiny)
 # Rely on the 'WorldPhones' dataset in the datasets
 # package (which generally comes preloaded).
 library(datasets)
-Home <- read.table("D:/cpinilla/Datascience/DevelopingProducts/Homes/viviendas.txt",sep="\t", header = TRUE)
+ Home <- read.table("Data/VIVIENDAS.txt",sep="\t", header = TRUE)
 
 # Define the overall UI
 shinyUI(
